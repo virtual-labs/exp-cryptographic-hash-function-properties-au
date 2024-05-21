@@ -2,35 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is a hash function?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A function that converts data of arbitrary size into a fixed-size string of bytes.",
+        "b": "A function that encrypts data to ensure its security during transmission.",
+        "c": "A function that compresses data to reduce its size.",
+        "d": "A function that validates data integrity by appending a checksum."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! A hash function converts data of arbitrary size into a fixed-size string of bytes.",
+        "b": "Incorrect. Hash functions do not encrypt data; they convert it into a fixed-size string of bytes.",
+        "c": "Incorrect. While hash functions may appear to compress data, their primary purpose is to convert data into a fixed-size string of bytes.",
+        "d": "Incorrect. Hash functions are primarily used for generating a fixed-size string of bytes from input data, rather than appending a checksum for data integrity."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is collision resistance in the context of hash functions?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It ensures that the hash function produces a unique output for each unique input.",
+        "b": "It ensures that it is computationally infeasible to find two distinct inputs that hash to the same value.",
+        "c": "It ensures that given a hash value, it is computationally infeasible to find any input that hashes to that value.",
+        "d": "It ensures that given an input, it is computationally infeasible to find another input that hashes to the same value."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. This describes the property of a hash function called uniqueness.",
+        "b": "Correct! Collision resistance ensures that it is computationally infeasible to find two distinct inputs that hash to the same value.",
+        "c": "Incorrect. This describes the property of a hash function called preimage resistance.",
+        "d": "Incorrect. This describes the property of a hash function called second preimage resistance."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is preimage resistance in the context of hash functions?",
+      "answers": {
+        "a": "It ensures that the hash function produces a unique output for each unique input.",
+        "b": "It ensures that it is computationally infeasible to find two distinct inputs that hash to the same value.",
+        "c": "It ensures that given a hash value, it is computationally infeasible to find any input that hashes to that value.",
+        "d": "It ensures that given an input, it is computationally infeasible to find another input that hashes to the same value."
+      },
+      "explanations": {
+        "a": "Incorrect. This describes the property of a hash function called uniqueness.",
+        "b": "Incorrect. This describes the property of a hash function called collision resistance.",
+        "c": "Correct! Preimage resistance ensures that given a hash value, it is computationally infeasible to find any input that hashes to that value.",
+        "d": "Incorrect. This describes the property of a hash function called second preimage resistance."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
