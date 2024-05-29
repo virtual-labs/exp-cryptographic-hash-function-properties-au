@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What property of a hash function ensures that given a hash value, it is computationally infeasible to find any input that hashes to that value?",
+      "answers": {
+        "a": "Preimage resistance",
+        "b": "Second preimage resistance",
+        "c": "Collision resistance",
+        "d": "Birthday paradox"
+      },
+      "explanations": {
+        "a": "Preimage resistance ensures that given a hash value, it is computationally infeasible to find any input that hashes to that value.",
+        "b": "Second preimage resistance ensures that given an input, it is computationally infeasible to find another input that hashes to the same value.",
+        "c": "Collision resistance ensures that it is computationally infeasible to find two distinct inputs that hash to the same value.",
+        "d": "The birthday paradox is related to collisions in hash functions, but it does not directly describe the property of a hash function."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which property of a hash function ensures that given an input, it is computationally infeasible to find another input that hashes to the same value?",
+      "answers": {
+        "a": "Preimage resistance",
+        "b": "Second preimage resistance",
+        "c": "Collision resistance",
+        "d": "Birthday paradox"
+      },
+      "explanations": {
+        "a": "Preimage resistance ensures that given a hash value, it is computationally infeasible to find any input that hashes to that value.",
+        "b": "Second preimage resistance ensures that given an input, it is computationally infeasible to find another input that hashes to the same value.",
+        "c": "Collision resistance ensures that it is computationally infeasible to find two distinct inputs that hash to the same value.",
+        "d": "The birthday paradox is related to collisions in hash functions, but it does not directly describe the property of a hash function."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which property of a hash function ensures that it is computationally infeasible to find two distinct inputs that hash to the same value?",
+      "answers": {
+        "a": "Preimage resistance",
+        "b": "Second preimage resistance",
+        "c": "Collision resistance",
+        "d": "Birthday paradox"
+      },
+      "explanations": {
+        "a": "Preimage resistance ensures that given a hash value, it is computationally infeasible to find any input that hashes to that value.",
+        "b": "Second preimage resistance ensures that given an input, it is computationally infeasible to find another input that hashes to the same value.",
+        "c": "Collision resistance ensures that it is computationally infeasible to find two distinct inputs that hash to the same value.",
+        "d": "The birthday paradox is related to collisions in hash functions, but it does not directly describe the property of a hash function."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
